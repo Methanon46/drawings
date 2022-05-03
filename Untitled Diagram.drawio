@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-03T08:41:04.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="NJd7RHzYjWwh_mBQ4oKO" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-03T09:03:06.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="9Xx_ZjBHB2qi1Xi_6H4-" version="17.5.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -68,7 +68,7 @@
             <mxPoint x="525" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lWIJ4T4-vQ5IvNJWS5fL-26" value="現時点で確定している仕様&lt;br&gt;・第１回、第２回は別サイト、別秘密鍵（第２回の支払い受け取り先がHealsであるため）&lt;br&gt;① Stripe API reference - customer -&amp;gt; Create an customer&amp;nbsp;&lt;br&gt;② - invoices -&amp;gt; Create an invoice&lt;br&gt;③ - invoices -&amp;gt; Retrieve an invoice で取得できるinvoice objectにURLが入ってる" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="lWIJ4T4-vQ5IvNJWS5fL-26" value="・第１回、第２回は別サイト、別秘密鍵（第２回の支払い受け取り先がHealsであるため）&lt;br&gt;① Stripe API reference - customer -&amp;gt; Create an customer&amp;nbsp;&lt;br&gt;② - invoices -&amp;gt; Create an invoice&lt;br&gt;③ - invoices -&amp;gt; Retrieve an invoice で取得できるinvoice objectにURLが入ってる" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="120" y="400" width="610" height="90" as="geometry" />
         </mxCell>
       </root>

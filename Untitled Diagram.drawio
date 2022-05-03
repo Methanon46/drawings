@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-05-02T04:34:59.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="xBYxSOSBTDZFb_4fr4Gk" version="17.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-03T08:41:04.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="NJd7RHzYjWwh_mBQ4oKO" version="17.5.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="677" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,25 +10,66 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
           <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="50" y="120" width="10" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="フォーム" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=20;" parent="1" vertex="1">
           <mxGeometry x="300" y="80" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
-          <mxGeometry x="45" y="80" width="10" height="160" as="geometry" />
+          <mxGeometry x="45" y="80" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="return" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-7" value="③Payment URL" style="verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.029;exitY=0.942;shadow=0;strokeWidth=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lWIJ4T4-vQ5IvNJWS5fL-4" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+          <mxGeometry x="-0.5155" y="-3" relative="1" as="geometry">
             <mxPoint x="275" y="236" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="住所、氏名&#xa;メールアドレス&#xa;の入力" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="住所、氏名&#xa;メールアドレス...&#xa;請求書宛名" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="275" y="160" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lWIJ4T4-vQ5IvNJWS5fL-3" value="Stripe API&#xa;［第１回→jpscs］&#xa;［第２回→heals］" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=60;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lWIJ4T4-vQ5IvNJWS5fL-4" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="lWIJ4T4-vQ5IvNJWS5fL-3">
+          <mxGeometry x="45" y="80" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lWIJ4T4-vQ5IvNJWS5fL-23" value="②$stripe-&gt;invoiceItems-&gt;create&#xa;(price id, customer id を指定)" style="verticalAlign=bottom;endArrow=open;entryX=0;entryY=0;shadow=0;strokeWidth=1;dashed=1;endFill=0;" edge="1" parent="lWIJ4T4-vQ5IvNJWS5fL-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-125" y="160" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="45" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWIJ4T4-vQ5IvNJWS5fL-6" value="①$stripe-&gt;customers-&gt;create" style="verticalAlign=bottom;endArrow=open;entryX=0;entryY=0;shadow=0;strokeWidth=1;dashed=1;endFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="170" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="525" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWIJ4T4-vQ5IvNJWS5fL-7" value="Stripe&#xa;支払いサイト" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;size=40;" vertex="1" parent="1">
+          <mxGeometry x="650" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lWIJ4T4-vQ5IvNJWS5fL-8" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;direction=west;" vertex="1" parent="lWIJ4T4-vQ5IvNJWS5fL-7">
+          <mxGeometry x="45" y="210" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lWIJ4T4-vQ5IvNJWS5fL-2" value="自動遷移" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;dashed=1;" edge="1" parent="1" target="lWIJ4T4-vQ5IvNJWS5fL-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="330" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWIJ4T4-vQ5IvNJWS5fL-17" value="customer id" style="verticalAlign=bottom;endArrow=none;entryX=0;entryY=0;shadow=0;strokeWidth=1;dashed=1;endFill=0;startArrow=open;startFill=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="200" as="sourcePoint" />
+            <mxPoint as="offset" />
+            <mxPoint x="525" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lWIJ4T4-vQ5IvNJWS5fL-26" value="現時点で確定している仕様&lt;br&gt;・第１回、第２回は別サイト、別秘密鍵（第２回の支払い受け取り先がHealsであるため）&lt;br&gt;① Stripe API reference - customer -&amp;gt; Create an customer&amp;nbsp;&lt;br&gt;② - invoices -&amp;gt; Create an invoice&lt;br&gt;③ - invoices -&amp;gt; Retrieve an invoice で取得できるinvoice objectにURLが入ってる" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="610" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,0 +1,10 @@
+tensorflow-addons
+jupyterlab
+matplotlib
+scikit-learn
+seaborn
+statsmodels
+japanize_matplotlib
+ecg-plot
+h5py
+tensorflow_datasets

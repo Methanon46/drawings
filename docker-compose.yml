@@ -1,0 +1,26 @@
+version: "3"
+services:
+  jupyter:
+    build:
+      context: ./
+      args:
+        - UID=${UID}
+        - USERNAME=${USER_NAME}
+        - GID=${GID}
+    image: tf-gpu
+    container_name: $USER_NAME-$nCPU-CPU-GPU$GPU
+    volumes:
+      - ./ecg_synth:/home/$USER_NAME/ecg_synth
+      - /etc/shadow:/etc/shadow:ro # パスワードハッシュをコピー
+      - /etc/passwd:/etc/passwd:ro # 後方互換のため、こちらのパスワードハッシュもコピー
+    command: jupyter lab --ip='' --port 8888 --allow-root --notebook-dir=/home/$USER_NAME/ecg_synth -NotebookApp.token=$JUPYTER_TOKEN
+    deploy:
+      resources:
+        limits:
+          cpus: $nCPU
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['0']
+              capabilities: [gpu]
+    

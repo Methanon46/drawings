@@ -1,6 +1,6 @@
 # pytorchを使う場合はdockerhubから好きなversionのimageFileを選択
 FROM tensorflow/tensorflow:latest-gpu
-LABEL mainteainer="yuk"
+LABEL mainteainer="yuki"
 LABEL version="0.1"
 ENV TZ Asia/Tokyo
 ENV DEBIAN_FRONTEND=noninteractive

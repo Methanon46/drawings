@@ -1,4 +1,5 @@
 .env
 ecg_synth/src/
 ecg_synth/.ipynb_checkpoints/
-ecg_synth/work/pytorch_gpu_test
+ecg_synth/work/*
+!ecg_synth/work/.gitkeep
